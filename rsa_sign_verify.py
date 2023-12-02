@@ -70,7 +70,7 @@ for key_size in rsa_key_sizes:
 # Plotting the times
 plt.plot(rsa_key_sizes, times_sign_all, 'o-r', label='RSA Sign Time')
 plt.plot(rsa_key_sizes, times_verify_all, 's-g', label='RSA Verify Time')
-plt.xlabel('Key Size (bits)')
+plt.xlabel('Security (bits)')
 plt.ylabel('Time (seconds)')
 plt.title(f'Timing RSA Sign and Verify Operations')
 plt.legend()
