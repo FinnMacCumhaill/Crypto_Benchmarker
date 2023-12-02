@@ -73,7 +73,7 @@ plt.plot(key_sizes_all, avg_sign_times_all, 'o-r', label='Average Sign Time')
 plt.plot(key_sizes_all, avg_verify_times_all, 's-g', label='Average Verify Time')
 
 # Set labels and titles
-plt.xlabel('Key Size (bits)')
+plt.xlabel('Security (bits)')
 plt.ylabel('Time (seconds)')
 plt.title(f'Timing DSA Operations ({num_iterations} iterations)')
 plt.legend()
