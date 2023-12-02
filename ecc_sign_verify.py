@@ -62,7 +62,7 @@ plt.plot(key_sizes, avg_sign_times, 'o-r', label='ECC Sign')
 plt.plot(key_sizes, avg_verify_times, 's-g', label='ECC Verify')
 
 # Display the plot
-plt.xlabel('Key Size (bits)')
+plt.xlabel('Security (bits)')
 plt.ylabel('Average Time (seconds)')
 plt.title(f'Timing ECDSA Sign and Verify Operations ({num_iterations} iterations)')
 plt.legend()
