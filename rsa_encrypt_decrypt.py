@@ -95,7 +95,7 @@ for key_size in key_sizes:
 # Plotting the times
 plt.plot(key_sizes, avg_encrypt_times, 'o-r', label='Encrypt Time')
 plt.plot(key_sizes, avg_decrypt_times, 's-g', label='Decrypt Time')
-plt.xlabel('Key Size (bits)')
+plt.xlabel('Security (bits)')
 plt.ylabel('Average Time (seconds)')
 plt.title('Timing RSA Encryption and Decryption Operations')
 plt.legend()
