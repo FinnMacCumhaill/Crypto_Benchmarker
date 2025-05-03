@@ -1,2 +1,2 @@
 # Crypto_Benchmarker
-Here is my crypto benchmarking program for Cryptography module
+Exploration of Cryptography through the development of a Crypto Benchmarking tool, in an effort to contrast and compare the essential factors that come to play when creating a tool such as this, to answer the age-old question of which Cryptographic Encryption algorithm is the strongest candidate in modern times, which could in turn set the standard for further cryptographic encryption standards in the overall area of computer security.
